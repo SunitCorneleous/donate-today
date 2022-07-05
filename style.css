@@ -18,12 +18,16 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.half-width {
   width: 50%;
 }
 
 h1 {
   font-size: 52px;
+}
+
+h2 {
+  font-size: 38px;
 }
 
 p {
@@ -40,4 +44,57 @@ p {
   border-radius: 3px;
   display: inline-block;
   margin: 10px;
+
+  font-size: 18px;
+}
+
+.donate-today {
+  text-align: center;
+
+  padding: 90px 0;
+}
+
+.amount{
+  display: flex;
+  justify-content: space-around;
+
+  margin: 50px 0;
+}
+
+.amount-item{
+  font-size: 25px;
+  font-weight: 700;
+  padding: 30px 20px;
+  /* margin: 0 10px; */
+
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px #b3afaf30;
+
+  background-color: #eeeeee;
+  color: #625d5d;
+}
+
+.active{
+  border: 2px solid #0a64bc;
+  color: #0a64bc;
+}
+
+.donate-input{
+  border: none;
+  border-bottom: 2px solid #0a64bc;
+  outline: none;
+
+  padding: 10px 100px;
+  font-size: 18px;
+
+  text-align: center;
+}
+
+.other-amount input{
+  display: block;
+  margin: 0 auto;
+}
+
+.other-amount .link-button{
+  margin-top: 40px;
 }
