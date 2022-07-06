@@ -68,7 +68,6 @@ p {
   font-size: 25px;
   font-weight: 700;
   padding: 30px 20px;
-  /* margin: 0 10px; */
 
   border-radius: 3px;
   box-shadow: 2px 2px 10px #b3afaf30;
@@ -134,6 +133,39 @@ p {
 
 #clothes {
   background-color: #d595ee;
+}
+
+.our-work{
+  padding: 70px 0;
+  width: 80%;
+}
+
+.works{
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-item{
+  width: 28%;
+  font-size: 25px;
+
+  border-radius: 3px;
+  box-shadow: 2px 2px 20px #b3afaf4d;
+  
+  margin-top: 50px;
+  background-color: #d4cdcd30;
+}
+
+.work-item img{
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.work-details{
+  padding: 20px 15px;
+  text-align: left;
 }
 
 .get-update {
