@@ -208,7 +208,7 @@ input[type="email"]{
 
 }
 
-input[type="submit"]{
+input[type="button"]{
   border-radius: 0 5px 5px 0;
   background-color: #0a64bc;
   color: #fff;
